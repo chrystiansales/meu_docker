@@ -1,3 +1,4 @@
+# code  docker-compose.yml
 version: "3.9"
 services:
   app:
@@ -5,5 +6,4 @@ services:
     container_name: container_ubuntu_01
     command: ["sleep","infinity"]
     volumes:
-      - ./data:/etc/data
-      
+      - ./data:/etc/data    
